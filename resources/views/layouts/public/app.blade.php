@@ -26,12 +26,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
-    <link href="{{ asset('assets/public/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/public/css/fontawesome-all.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/public/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/fontawesome-all.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
 
     <!-- Favicon  -->
-    <link rel="icon" href="{{ asset('assets/public/images/favicon.png') }}">
+    <link rel="icon" href="{{ asset('assets/images/favicon.png') }}">
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
@@ -42,7 +42,7 @@
 
             <!-- Image Logo -->
             <a href="/" style="text-decoration: none; font-size: 24px; color: white;">
-                <img src="{{ asset('assets/public/images/favicon.png') }}" alt="Irfan's Web"
+                <img src="{{ asset('assets/images/favicon.png') }}" alt="Irfan's Web"
                     style="height: 40px; vertical-align: middle;"> <strong style="vertical-align: middle;">Ibe's
                     Web</strong>
             </a>
@@ -178,10 +178,10 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('assets/public/js/jquery.min.js') }}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="{{ asset('assets/public/js/bootstrap.min.js') }}"></script> <!-- Bootstrap framework -->
-    <script src="{{ asset('assets/public/js/jquery.easing.min.js') }}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="{{ asset('assets/public/js/scripts.js') }}"></script> <!-- Custom scripts -->
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script> <!-- Bootstrap framework -->
+    <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{{ asset('assets/js/scripts.js') }}"></script> <!-- Custom scripts -->
 </body>
 
 </html>
