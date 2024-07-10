@@ -33,7 +33,7 @@
                                     <td>{{ $client->kesan }}</td>
                                     <!-- Tampilkan Gambar -->
                                     <td>
-                                        <img src="{{ asset('assets/public/images/' . $client->image) }}" alt="Gambar Client"
+                                        <img src="{{ asset('assets/images/' . $client->image) }}" alt="Gambar Client"
                                             style="max-width: 100px;">
                                     </td>
                                     <td>
@@ -101,7 +101,7 @@
                                                     <div class="form-group">
                                                         <label for="edit_image">Gambar</label>
                                                         <br>
-                                                        <img src="{{ asset('assets/public/images/' . $client->image) }}"
+                                                        <img src="{{ asset('assets/images/' . $client->image) }}"
                                                             id="edit_image_preview" alt="Gambar Client"
                                                             style="max-width: 200px; margin-bottom: 10px;">
                                                         <input type="file" class="form-control-file" id="edit_image"
