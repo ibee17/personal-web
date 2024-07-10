@@ -36,7 +36,7 @@ class ClientsController extends Controller
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $imageName = time() . '.' . $image->getClientOriginalExtension();
-            $image->move(public_path('assets/public/images'), $imageName);
+            $image->move(public_path('assets/images'), $imageName);
         }
 
         Client::create([
@@ -76,7 +76,7 @@ class ClientsController extends Controller
     if ($request->hasFile('image')) {
         // Hapus gambar lama jika bukan gambar default
         if ($client->image !== 'user.png') {
-            $imagePath = public_path('assets/public/images/' . $client->image);
+            $imagePath = public_path('assets/images/' . $client->image);
             if (file_exists($imagePath)) {
                 unlink($imagePath);
             }
@@ -85,7 +85,7 @@ class ClientsController extends Controller
         // Upload gambar baru
         $image = $request->file('image');
         $imageName = time() . '_' . $image->getClientOriginalName();
-        $image->move(public_path('assets/public/images/'), $imageName);
+        $image->move(public_path('assets/images/'), $imageName);
 
         // Simpan nama gambar ke database
         $client->image = $imageName;
@@ -103,7 +103,7 @@ class ClientsController extends Controller
         
         // Hapus gambar dari direktori jika bukan gambar default
         if ($client->image !== 'user.png') {
-            $imagePath = public_path('assets/public/images/' . $client->image);
+            $imagePath = public_path('assets/images/' . $client->image);
             if (file_exists($imagePath)) {
                 unlink($imagePath);
             }
