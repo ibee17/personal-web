@@ -76,7 +76,7 @@
                                     <p class="testimonial-text">{{ $client->kesan }}</p>
                                     <div class="details">
                                         <div class="rounded-image mr-3">
-                                            <img src="{{ asset('assets/public/images/' . $client->image) }}"
+                                            <img src="{{ asset('assets/images/' . $client->image) }}"
                                                 alt="Foto Profil" class="rounded-image">
                                         </div>
                                         <div class="text">
@@ -185,13 +185,13 @@
                                 kerja modern lainnya</p>
 
                             <div class="icons-container">
-                                <img src="{{ asset('assets/public/images/details-icon-photoshop.png') }}" alt="alternative">
-                                <img src="{{ asset('assets/public/images/details-icon-illustrator.png') }}"
+                                <img src="{{ asset('assets/images/details-icon-photoshop.png') }}" alt="alternative">
+                                <img src="{{ asset('assets/images/details-icon-illustrator.png') }}"
                                     alt="alternative">
-                                <img src="{{ asset('assets/public/images/details-icon-html.png') }}" alt="alternative">
-                                <img src="{{ asset('assets/public/images/details-icon-css.png') }}" alt="alternative">
-                                <img src="{{ asset('assets/public/images/details-icon-bootstrap.png') }}" alt="alternative">
-                                <img src="{{ asset('assets/public/images/details-icon-javascript.png') }}"
+                                <img src="{{ asset('assets/images/details-icon-html.png') }}" alt="alternative">
+                                <img src="{{ asset('assets/images/details-icon-css.png') }}" alt="alternative">
+                                <img src="{{ asset('assets/images/details-icon-bootstrap.png') }}" alt="alternative">
+                                <img src="{{ asset('assets/images/details-icon-javascript.png') }}"
                                     alt="alternative">
                             </div><!--end of icons-container-->
                         </div> <!-- end of text-container -->
