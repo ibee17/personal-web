@@ -3,7 +3,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-                <img src="{{ asset('assets/public/images/favicon.png') }}" alt="Irfan's Web"
+                <img src="{{ asset('assets/images/favicon.png') }}" alt="Irfan's Web"
                     style="height: 40px; vertical-align: middle;">
                 <div class="sidebar-brand-text mx-3">Ibe's Web</div>
             </a>
